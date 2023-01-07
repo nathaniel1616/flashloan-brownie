@@ -38,7 +38,7 @@ contract FlashLoan is FlashLoanSimpleReceiverBase {
         uint16 referralCode = 0;
 
         POOL.flashLoanSimple(
-            receiver  Address,
+            receiverAddress,
             asset,
             amount,
             params,

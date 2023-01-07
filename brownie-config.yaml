@@ -1,10 +1,10 @@
 dependencies:
-  - "aave/aave-v3-core@1.16.2"
+  - "aave/aave-v3-core@1.17.0"
 
 compiler:
   solc:
     remappings:
-      - "aave/aave-v3-core@1.16.2=aave/aave-v3-core@1.16.2"
+      - "aave/aave-v3-core@1.16.2=aave/aave-v3-core@1.17.0"
 
 dotenv: .env
 
